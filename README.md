@@ -6,8 +6,6 @@ Instead of distorting static images until humans can barely read them, **DesyncJ
 
 ## Live Preview
 
-https://github.com//BjornEriksson/DesyncJS/raw/main/movie.mp4
-
 > **How it works:** Each frame renders **at most one character** (or a completely blank frame). Taking a screenshot will never reveal the full code.
 
 ## Features
