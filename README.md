@@ -6,6 +6,8 @@ Instead of distorting static images until humans can barely read them, **DesyncJ
 
 ## Live Preview
 
+https://github.com/user-attachments/assets/87dce6bf-c764-4264-a7c0-287c4a19e173
+
 > **How it works:** Each frame renders **at most one character** (or a completely blank frame). Taking a screenshot will never reveal the full code.
 
 ## Features
