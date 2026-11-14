@@ -1,0 +1,43 @@
+<!--
+ * DesyncJS - Temporal Desynchronization CAPTCHA
+ * Copyright (c) 2026 BjornEriksson
+ * Released under the MIT License
+ -->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DesyncJS - Temporal Desync CAPTCHA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <h1>DesyncJS</h1>
+    <p class="subtitle">Enter the characters shown in the box below</p>
+
+    <form id="captcha-form">
+      <div class="captcha-wrapper">
+        <canvas id="desync-canvas" width="280" height="90"></canvas>
+        <button type="button" id="refresh-btn" title="Generate new code">&#x21bb;</button>
+      </div>
+
+      <div class="input-group">
+        <input 
+          type="text" 
+          id="captcha-input" 
+          placeholder="Enter code..." 
+          autocomplete="off" 
+          required
+        >
+        <button type="submit" id="submit-btn">Verify</button>
+      </div>
+
+      <p id="status-message" class="status"></p>
+    </form>
+  </main>
+
+  <script src="desync.js"></script>
+</body>
+</html>
