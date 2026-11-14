@@ -6,7 +6,7 @@ Instead of distorting static images until humans can barely read them, **DesyncJ
 
 ## Live Preview
 
-![BlueSolarPanel Dashboard](movie.mp4)
+![DesyncJS Dashboard](movie.mp4)
 
 > **How it works:** Each frame renders **at most one character** (or a completely blank frame). Taking a screenshot will never reveal the full code.
 
